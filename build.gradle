@@ -15,6 +15,12 @@ dependencies {
 
 release {
     tagTemplate = '$name-$version'
+    //pushReleaseVersionBranch = true
+    git {
+        requireBranch = 'develop'
+        pushToRemote = 'origin'
+        pushToBranchPrefix = 'master'
+    }
 }
 
 task(startmessage) << {
