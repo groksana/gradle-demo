@@ -27,6 +27,7 @@ release {
     tagCommitMessage = '[Gradle Release Plugin] - creating tag: '
     newVersionCommitMessage = '[Gradle Release Plugin] - new version commit: '
     tagTemplate = '${version}'
+    pushReleaseVersionBranch = 'master'
     versionPropertyFile = 'gradle.properties'
     versionProperties = []
     snapshotSuffix = '-SNAPSHOT'
