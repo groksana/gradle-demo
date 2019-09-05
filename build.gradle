@@ -15,7 +15,7 @@ dependencies {
 
 release {
     tagTemplate = '$name-$version'
-    pushReleaseVersionBranch = true
+    pushReleaseVersionBranch = 'master'
     git {
         requireBranch = 'develop'
         pushToRemote = 'origin'
