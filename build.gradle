@@ -46,7 +46,7 @@ release {
     git {
         requireBranch = 'develop'
         pushToRemote = 'origin'
-        pushToBranchPrefix = 'master'
+        pushToBranchPrefix = ''
         commitVersionFileOnly = false
         signTag = false
     }
