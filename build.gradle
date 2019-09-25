@@ -3,9 +3,6 @@ plugins {
     id "net.researchgate.release" version "2.8.1"
 }
 
-group 'com.gromoks'
-version '7.3.3-SNAPSHOT'
-
 sourceCompatibility = 1.8
 
 repositories {
@@ -29,7 +26,7 @@ release {
 //    newVersionCommitMessage = '[Gradle Release Plugin] - new version commit: '
 //    tagTemplate = '${version}'
     pushReleaseVersionBranch = 'master'
-    versionPropertyFile = 'build.gradle'
+//    versionPropertyFile = 'build.gradle'
 //    versionProperties = []
 //    snapshotSuffix = '-SNAPSHOT'
 //    buildTasks = ['build']
